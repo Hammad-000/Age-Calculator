@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<body class="bg-lime-600 font-sans">
+
+<main class="flex items-center justify-center h-screen">
+    <div class="bg-black p-8 rounded-lg shadow-lg w-96">
+        <h1 class="text-2xl font-semibold text-center text-green-600 mb-6">Age Calculator</h1>
+        
+        
+        <div class="mb-4">
+            <label for="birthdate" class="block text-lg text-white  mb-2 cursor-pointer   ">Enter your birthdate</label>
+            <input id="birthdate" type="date" class="w-full p-2 border border-gray-300 bg-white cursor-pointer rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter Your birthdate">
+        </div>
+        
+       
+        <button id="submit" class="w-full bg-white  p-2 rounded-md cursor-pointer  transition duration-300">Calculate Age  </button>
+        
+       
+        <p id="result" class="mt-4 text-center text-lg text-lime-600"></p>
+    </div>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>
